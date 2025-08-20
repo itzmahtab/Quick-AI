@@ -23,8 +23,8 @@ const App = () => {
           <Route index element={<Dashboard />} />
           <Route path='write-article'  element={<WriteArticle/>} />
           <Route path='blog-titles' element={<BlogTitle/>} />
-          <Route path='genarates-images' element={<GenarateImages/>} />
-          <Route path='remove-backgroud' element={<RemoveBackground/>} />
+          <Route path='generate-images' element={<GenarateImages/>} />
+          <Route path='remove-background' element={<RemoveBackground/>} />
           <Route path='remove-object' element={<Removeobject/>} />
           <Route path='review-resume' element={<ReviewResume/>} />
           <Route path='community' element={<Community/>} />
